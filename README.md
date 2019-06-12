@@ -1,2 +1,2 @@
 # ylisteemat
-Teemoja ylilaudalle
+suht hyödyllisiä juttuja laudalle
