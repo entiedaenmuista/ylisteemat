@@ -1,0 +1,39 @@
+/* Piilottaa turhat linkit sivupalkista */
+#sidebar a[href^="https://eurheilu.com"] {
+display: none !important;
+}
+
+
+/* Piilottaa jakonapin */
+.icon-share2 {
+display: none !important;
+}
+
+
+/* Piilottaa pikavastausnapin */
+.icon-reply {
+display: none !important;
+}
+
+
+/* Näyttää kaikkien nimenä Anonyymi */
+.postinfo .left::before {
+content: 'Anonyymi';
+margin-right: 5px;
+font-weight: bold;
+color: #17a45c;
+}
+
+.postername {
+display: none !important;
+}
+
+
+/* Spoilerit perinteisesti */
+.spoiler:not(.open):hover {
+color:#fff;
+}
+
+.spoiler:not(.open):hover a {
+color:#fff;
+}
