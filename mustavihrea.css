@@ -1,0 +1,1045 @@
+/* Piilottaa turhat linkit sivupalkista */
+#sidebar a[href^="https://meemi.info"], a[href^="https://eurheilu.com"] {
+display: none !important;
+}
+
+/* Piilottaa jakonapin */
+.icon-share2 {
+display: none !important;
+}
+
+
+/* Piilottaa pikavastausnapin */
+.icon-reply {
+display: none !important;
+}
+
+
+/* Näyttää kaikkien nimenä Anonyymi */
+.postinfo .left::before {
+content: 'Anonyymi';
+margin-right: 5px;
+font-weight: bold;
+color: #17a45c;
+}
+
+
+.postername {
+display: none !important;
+}
+
+
+/* Spoilerit perinteisesti */
+.spoiler:not(.open):hover {
+color:#fff;
+}
+
+
+.spoiler:not(.open):hover a {
+color:#fff;
+}
+
+
+.icon-text-align-justify {
+display: none !important;
+}
+
+
+body {
+background: #101010;
+color: #eee;
+}
+
+
+body.menu_opened #left nav {
+border-bottom: 1px solid #546271;
+}
+
+
+.sfwinfo, .nsfwinfo {
+color: #ba1f27 !important;
+background-color: rgba(41, 41, 41, 0);
+}
+
+
+#sidebar a:not(.logo):hover {
+background-color: #292929;
+text-decoration: none;
+}
+
+
+#sidebar .buttons button, #sidebar .buttons a {
+background-color: #363636;
+color: #eee;
+}
+
+
+#sidebar h4 {
+color: #eee;
+}
+
+
+#topbar button:hover, #topbar a:hover {
+color: #e2e2e2;
+}
+
+
+body.boardnav-open #topbar #boardselector div {
+border-color: #373737;
+}
+
+
+#left .logo {
+padding-bottom: 25px;
+}
+
+
+p.infobar a {
+color: #000000 !important;
+}
+
+
+a {
+color: #17a45c;
+}
+
+
+a:link {
+color: #17a45c;
+}
+
+
+a:visited {
+color: #17a45c;
+}
+
+
+a:hover {
+color: #ba1f27;
+}
+
+
+a[onclick] {
+cursor:pointer
+color: #1ed075;
+}
+
+
+a:active {
+color: #1ed075;
+}
+
+
+a.postnumber {
+font-size: 12px;
+}
+
+
+#right .postnumber quotelink a {
+color: #888;
+}
+
+
+#topbar {
+background: rgb(41, 41, 41);
+box-shadow: 0 10px 10px -10px #101010;
+}
+
+
+#topbar a {
+color: #eee;
+}
+
+
+#sidebar {
+background: rgb(41, 41, 41);
+}
+
+
+#sidebar a {
+color: #eee;
+}
+
+
+#sidebar a:hover {
+color: #bebebe;
+}
+
+
+#sidebar .sq-buttons>a {
+color: #eee !important;
+background-color: #363636 !important;
+border-color: #363636 #363636 #363636 #363636;
+}
+
+
+#sidebar .sq-buttons>button {
+color: #eee !important;
+background-color: #363636 !important;
+border-color: #363636 #363636 #363636 #363636;
+}
+
+
+#sidebar .sq-buttons>a:hover {
+color: #eee !important;
+background-color: #434343 !important;
+border-color: #363636 #363636 #363636 #363636;
+}
+
+
+#sidebar .sq-buttons>button:hover {
+color: #eee !important;
+background-color: #434343 !important;
+border-color: #363636 #363636 #363636 #363636;
+}
+
+
+#mobile_menu a {
+color: #eee;
+}
+
+
+.boardheader h1 {
+color: #17a45c;
+}
+
+
+.infobar {
+background-color: #f2f2f2;
+border-radius: 0px;
+display: none;
+}
+
+
+.postedbyop {
+background-color: #17a45c;
+}
+
+
+.tooltip {
+background-color: #111111;
+border-radius: 0px;
+border: 5px solid #292929;
+}
+
+
+.tooltip .postuid {
+background-color: #1d1d1d;
+border: 1px solid #1d1d1d;
+}
+
+
+.tooltip .posttime {
+color: #888;
+}
+
+
+.tooltip .goldhide-info {
+background-color: #111111;
+border-top: 1px solid #292929;
+}
+
+
+#right .threads .thread .gold-get .postinfo {
+box-shadow: 0 0 0 100px rgba(255,210,0,0.4) inset !important;
+}
+
+
+.gold-get .postinfo .messageoptions {
+background-color: #30303000 !important;
+}
+
+
+.tooltip .postername {
+color: #c27390;
+}
+
+
+.tooltip .postinfo {
+background-color: #111111;
+border-bottom: 1px solid #111111;
+}
+
+
+.tooltip .replies {
+border-top:1px solid #111111;
+background-color: #111111;
+}
+
+
+.tooltip .message .postcontent {
+background-color: #111111;
+}
+
+
+.tooltip .message {
+background-color: #111111;
+}
+
+
+.tooltip .postsubject {
+background-color: #303030;
+}
+
+
+.tooltip .post a:hover,.tooltip .replies a:hover {
+color: #ba1f27;
+}
+
+
+.tooltip .filecontainer figcaption span {
+color: #222;
+}
+
+
+.tooltip .filecontainer figcaption a {
+color: #222;
+}
+
+
+.tooltip .filecontainer figcaption a:hover {
+color: #222;
+}
+
+
+.tooltip .post a,.tooltip .replies a {
+color:#17a45c;
+}
+
+
+.linkbutton:hover {
+background-color: #1ed075;
+border-color: #1ed075;
+}
+
+
+.linkbutton {
+background-color: #17a45c;
+border-right: 1px solid #ffffff;
+border-bottom: 1px solid #1da555;
+color: #fff !important;
+border-color: #17a45c #17a45c #17a45c #17a45c;
+}
+
+
+.button#postoptions_toggle {
+background-color: #15783e !important;
+border-color: #15783e !important;
+}
+
+
+#return-button {
+color: #222 !important;
+}
+
+
+.dialog {
+border: 1px solid #222;
+border-radius: 0px;
+background-color: #e2e2e2;
+}
+
+
+.dialog form input[type="text"], .dialog form textarea {
+background-color: #fff !important;
+color: #222;
+}
+
+
+.dialog form textarea {
+background-color: #fff !important;
+color: #222;
+}
+
+
+input, select, textarea {
+background-color: #191919 !important;
+border-color: #1f1f1f !important;
+color: #eee;
+}
+
+
+button#postoptions_toggle {
+color: #222 !important;
+}
+
+
+button#submit-btn {
+color: #222 !important;
+}
+
+
+input, select {
+background-color: #17a45c;
+border-right: 1px solid #17a45c;
+border-bottom: 1px solid #17a45c;
+border-top: 1px solid #17a45c;
+border-left: 1px solid #17a45c;
+}
+
+
+.notification.not-read {
+background-color: #383837;
+}
+
+
+.notification a:hover {
+color: #1ed075;
+}
+
+
+button, html input[type="button"], input[type="reset"] {
+background-color: #17a45c;
+border-right: 1px solid #17a45c;
+border-bottom: 1px solid #17a45c;
+border-top: 1px solid #17a45c;
+border-left: 1px solid #17a45c;
+color: #fff;
+}
+
+
+#left {
+background-color: #333c45
+}
+
+
+#left nav {
+border-bottom: 1px solid #546271
+}
+
+
+#left h4 {
+font-weight: 700;
+margin: 0 0 5px 0;
+color: #94a2b0;
+}
+
+
+.front .news .newstext {
+background-color: #232322;
+}
+
+
+#front nav#front-boards {
+background-color: #242323;
+}
+
+
+#front nav#front-boards a:hover {
+background-color: #292929;
+}
+
+
+#left a  {
+color: rgb(238, 238, 238);
+}
+
+
+#left a:not(.logo):hover {
+background: #191e2375;
+}
+
+
+#right {
+background-color: #0f0f0f;
+}
+
+
+#right.preferences .tag-preview-box h4 {
+background-color: #303030 !important;
+border-bottom: 1px solid #303030 !important;
+}
+
+
+#right.preferences .tag-preview-box .tag-preview {
+background-color: rgba(255,255,255,0.04) !important;
+}
+
+
+#right.preferences .tag-preview-box p {
+color: #eee !important;
+}
+
+
+#right.preferences .tag-preview-box {
+background-color: #303030 !important;
+}
+
+
+#right.preferences form input[type="submit"] {
+background-color: #17a45c !important;
+border-color: #17a45c !important;
+border-right: 1px solid #17a45c;
+border-bottom: 1px solid #17a45c;
+border-top: 1px solid #17a45c;
+border-left: 1px solid #17a45c;
+color: #fff !important;
+}
+
+
+#right.preferences form input[type="submit"]:hover {
+background-color: #1ed075 !important;
+border-color: #1ed075 !important;
+border-right: 1px solid #1ed075;
+border-bottom: 1px solid #1ed075;
+border-top: 1px solid #1ed075;
+border-left: 1px solid #1ed075;
+color: #fff !important;
+}
+
+
+#right .threads .thread .postuid {
+background-color: #1d1d1d;
+border: 1px solid #1d1d1d;
+}
+
+
+#right .threads .thread .posttime {
+color: #888;
+}
+
+
+#right .threads .thread .postsubject {
+background-color: #303030;
+}
+
+
+#right .thread-boardinfo {
+background-color: #252424;
+border-bottom: 1px solid #292929;
+}
+
+
+#right .threads .thread .edits h4 {
+background-color: #0d643;
+color: #fff;
+}
+
+
+.edits .edit {
+border-top: 1px solid #333333;
+}
+
+
+#right .threads .thread .edits .edit {
+border-top: 1px solid #fff;
+}
+
+
+#right .threads .thread .omitted {
+color: #888;
+font-size: 0.8em;
+padding-top: 0.5px;
+}
+
+
+#right form#post.asyncreply {
+background-color: #0f0f0f;
+border: 1px solid #303030;
+}
+
+
+#right .threads .thread .postsubject [class^="icon-"], #right .threads .thread .postsubject [class*=" icon-"] {
+background-color: #222;
+color: #eee;
+}
+
+
+.tooltip .postsubject [class^="icon-"], .tooltip .postsubject [class*=" icon-"] {
+background-color: #222;
+color: #eee;
+}
+
+
+#right .hidden [class^="icon-"], #right .hidden [class*=" icon-"] {
+background-color: rgba(255,255,255,0.05);
+color: #eee;
+}
+
+
+#right .threads .thread .goldhide-info {
+border-top: 1px solid #3c3c3c;
+background-color: #2c2c2c;
+}
+
+
+#right .threads .thread .post a,#right .threads .thread .replies a {
+color: #17a45c;
+}
+
+
+#right .threads .thread .post a:hover,#right .threads .thread .replies a:hover {
+color: #ba1f27;
+}
+
+
+#right .threads .thread .file {
+background-color: #fff;
+}
+
+#right .threads .thread .filecontainer figcaption a {
+color: #323232;
+}
+
+
+#right .threads .thread .filecontainer figcaption a:hover {
+color: #1ed075;
+}
+
+
+#right .threads.style-box .thread, #right .threads.style-box .hidden {
+border: 1px solid #242323;
+border-radius: 1px;
+background-color: #242323;
+}
+
+
+#right .threads .thread .postername {
+color: #c27390;
+}
+
+
+#right form#post .label {
+color: #17a45c;
+}
+
+
+#right form#post label.label {
+border: 1px solid #17a45c;
+background-color: #17a45c;
+color: #fff;
+}
+
+
+#right form#post #postbuttons {
+border: 1px solid #17a45c;
+}
+
+
+#right form#post #postoptions {
+border: 1px solid #3c3c3c;
+background-color: #2c2c2c;
+color: #eee;
+}
+
+
+#right .threads .thread .post a, #right .threads .thread .replies a {
+color: #17a45c;
+}
+
+
+#right form#post textarea, #right form#post input, #right form#post :not(#postbuttons):not(#color-buttons) button, #right form#post select {
+color: #eee !important;
+background-color: #17a45c !important;
+border-color: #17a45c !important;
+}
+
+
+#right .threads .thread .op_post .postinfo {
+background-color: #2c2c2c;
+border-bottom: 1px solid #2c2c2c;
+box-shadow: 0px 5px 5px -5px #2c2c2c;
+}
+
+
+#right .navigationbar .pagination .cur {
+background-color: #0f0f0f;
+color: #eee;
+}
+
+
+#right .navigationbar {
+border-top: 1px solid transparent;
+border-bottom: 1px solid transparent;
+}
+
+
+#right .navigationbar .pagination {
+border: 1px solid #0f0f0f;
+border-radius: 0px;
+}
+
+
+.icon-button {
+background-color: rgba(255,255,255,0.05);
+color: #eee;
+}
+
+
+.icon-button:hover  {
+color: #7f7f7f;
+}
+
+
+.message {
+background-color: #2c2c2c;
+border-color: #2c2c2c;
+}
+
+
+#right .navigationbar .pagination {
+background-color: #0f0f0f;
+}
+
+
+#right.preferences .tag-preview-box {
+border: 1px solid #383838 !important;
+}
+
+
+#right.preferences .tag-preview-box h4 {
+background-color: #252525;
+border-bottom: 1px solid #17a45c;
+}
+
+
+#right.preferences #tabchooser li.cur {
+border: 1px solid #888;
+color: #0f0f0f;
+}
+
+
+#right .threads.style-replies .thread {
+border: 1px solid #222 !important;
+background-color: #222 !important;
+}
+
+
+#right .threads.style-replies .thread .messageoptions {
+border: 0;
+background-color: #303030;
+}
+
+
+#right .threads.style-replies .post .postcontent {
+background-color: #2c2c2c;
+}
+
+.postcontent a:hover, a.ref:hover {
+color: #1ed075;
+}
+
+
+#right .threads .thread .post {
+background-color: #2c2c2c;
+}
+
+
+#right .threads.style-box .thread .omitted, #right .threads.style-box .hidden .omitted {
+background-color: #2c2c2c;
+box-shadow: 0 0 1px 5px #2c2c2c;
+}
+
+
+#right .threads.style-box .thread .file, #right .threads.style-box .hidden .file {
+background-color: #f2f2f2;
+}
+
+
+#right .threads .thread .postinfo {
+background-color: #2c2c2c;
+border-bottom: 1px solid #2c2c2c;
+}
+
+
+#right.preferences form input[type="submit"] {
+color: #d4d4d4;
+}
+
+
+#right.preferences form textarea {
+background-color: #fff !important;
+color: #222;
+border: 1px solid #404040;
+}
+
+
+#right.preferences form select {
+background-color: #fff !important;
+color: #222;
+border: 1px solid #404040;
+}
+
+
+#right.preferences input[type="text"], #right.preferences input[type="password"] {
+border: 1px solid #404040;
+background-color: #fff !important;
+color: #222;
+}
+
+
+#right form#post #msg {
+border: 1px solid #17a45c;
+}
+
+
+#right form#post textarea, #right form#post input, #right form#post button, #right form#post select {
+background-color: #333333 !important;
+border-color: #404040 !important;
+}
+
+
+#right form#post #embedtype {
+color: #eee;
+}
+
+
+#right form#post #file {
+color: #eee;
+}
+
+
+#right form#post #postbuttons button {
+color: #17a45c;
+background-color: #111 !important;
+}
+
+
+#right form#post #postbuttons+textarea, #right form#post #colorbuttons+textarea {
+color: #222;
+box-shadow: 0 0 3px 0 #888 inset;
+border: 3px;
+}
+
+
+#right form#post .row select, #right form#post .row input {
+color: #222;
+box-shadow: 0 0 2px 0 #888 inset;
+}
+
+
+#right form#post textarea, #right form#post input, #right form#post button, #right form#post select {
+background-color: #000 !important;
+border-color: #303030 !important;
+}
+
+
+#right .threads .thread .morereplies, #right .threads .thread .lessreplies {
+background-color: #17a45cd;
+color: #222;
+border-bottom: 1px solid #17a45c;
+}
+
+
+#right .threads .thread .embed-hidelink {
+background-color: #353535;
+color: #eee;
+border-bottom: 1px solid #292929;
+border-top: 1px solid #292929;
+border-right: 1px solid #292929;
+border-left: 1px solid #292929;
+}
+
+
+#right form#post :not(#postbuttons) button {
+background-color: #0f0f0f !important;
+border-color: #e2e2e2 !important;
+}
+
+
+#right form#post #postbuttons, #right form#post #colorbuttons {
+border: 1px solid #303030;
+background-color: #111 !important;
+}
+
+
+form#post #color-buttons {
+border-top: 1px solid #0f0f0f;
+}
+
+
+form#post #postbuttons, form#post #color-buttons {
+border: 1px solid #303030;
+}
+
+
+#colorbuttons {
+background-color: #fff !important;
+}
+
+
+#postbuttons, #postbuttons a {
+background-color: #fff !important;
+}
+
+
+#right form#post #colorbuttons {
+border-top: 1px solid #f5f5f5;
+background-color: #f5f5f5 !important;
+}
+
+
+#right.preferences input[type="text"], #right.preferences input[type="password"] {
+border: 1px solid #404040;
+}
+
+
+#right .threads .thread .replies {
+border-top: 1px solid #3c3c3c;
+background-color: #2c2c2c;
+}
+
+
+#right .thread .answers .answer {
+border: 1px solid #2c2c2c;
+border-radius: 0%;
+}
+
+
+#right .thread .answers .answer.highlighted {
+border: 1px solid #084828;
+background-color: #084828;
+border-radius: 0%;
+}
+
+
+#right form#post #postbuttons #colorbuttons {
+border-top: 1px solid #17a45c;
+}
+
+
+#right .threads .thread .filecontainer.thumbnail, #right .threads .thread .answer .filecontainer.thumbnail, .tooltip .filecontainer.thumbnail {
+background-color: #f2f2f2;
+}
+
+
+#right .threads .thread .filecontainer:not(.thumbnail) {
+background-color: #f2f2f2;
+}
+
+
+.post-file .file-data {
+background-color: rgba(255,255,255,0.04);
+}
+
+
+.post-file .file-content {
+background-color: rgba(255,255,255,0.04);
+}
+
+
+.post-file figcaption {
+background-color: #353535;
+}
+
+
+.post-file:not(.thumb) .file-data {
+background-color: rgba(255,255,255,0.04);
+}
+
+
+#right .threads.style-box .thread .post-file, #right .threads.style-box .hidden .post-file {
+background-color: rgba(255,255,255,0.04);
+}
+
+
+#right.banned div.box {
+background-color: #292929 !important;
+color: #fff !important;
+}
+
+
+#right.banned .banned-block:not(:first-of-type) {
+border-top: 1px solid #292929;
+}
+
+
+#modal-root .title {
+background-color: #111111;
+color: #eee;
+}
+
+
+#modal-root .content {
+background-color: #111111;
+}
+
+
+#modal-root form label {
+color: #eee;
+}
+
+
+#modal-root .buttons {
+background-color: #111111;
+box-shadow: 0 10px 0 0 #111111;
+}
+
+
+#modal-root .modal {
+background-color: #161514;
+border: 5px solid #373737;
+}
+
+
+#modal-root .close {
+background-color: red;
+}
+
+
+#toast-root .toast.info {
+background-color: #292929;
+border-radius: 0px;
+border-style: 1px solid #232322;
+color: #eee;
+}
+
+
+#toast-root .toast.success {
+background-color: #17a45c;
+border-radius: 0px;
+color: #eee;
+}
+
+
+#toast-root .toast.error {
+border-radius: 0px;
+color: #eee;
+}
+
+
+.notification {
+border-bottom: 1px solid #060606;
+}
+
+
+.front h3 {
+color: #eee;
+background: #303030;
+}
+
+
+.threads.style-box {
+background-color: #0f0f0f;
+}
+
+
+::-webkit-scrollbar {
+width: 8px;
+border-radius: 15px;
+}
+
+
+::-webkit-scrollbar-track {
+background: #0f0f0f;
+}
+
+
+::-webkit-scrollbar-thumb {
+background: #117442;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+background: #159654;
+}
+
+
+::-webkit-file-upload-button {
+background: #333;
+color: grey;
+border-color: #333;
+font-size: 12px;
+padding: 4.5px 10px;
+border: 0;
+}
