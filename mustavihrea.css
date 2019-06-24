@@ -908,7 +908,12 @@ background-color: #f2f2f2;
 }
 
 
-.post-file .file-data {
+.post-file {
+background-color: #222;
+}
+
+
+.file-data {
 background-color: rgba(255,255,255,0.04);
 }
 
